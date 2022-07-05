@@ -11,6 +11,7 @@ abstract class Routes {
   static const FORGOT = _Paths.FORGOT;
   static const SPLASHSCREEN = _Paths.SPLASHSCREEN;
   static const DIRBBOX_LOGIN = _Paths.DIRBBOX_LOGIN;
+  static const DIRBBOX_PROFILE = _Paths.DIRBBOX_PROFILE;
 }
 
 abstract class _Paths {
@@ -21,4 +22,5 @@ abstract class _Paths {
   static const FORGOT = '/forgot';
   static const SPLASHSCREEN = '/splashscreen';
   static const DIRBBOX_LOGIN = '/dirbbox-login';
+  static const DIRBBOX_PROFILE = '/dirbbox-profile';
 }

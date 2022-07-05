@@ -2,6 +2,8 @@ import 'package:get/get.dart';
 
 import 'package:flutterapi/app/modules/dirbbox_login/bindings/dirbbox_login_binding.dart';
 import 'package:flutterapi/app/modules/dirbbox_login/views/dirbbox_login_view.dart';
+import 'package:flutterapi/app/modules/dirbbox_profile/bindings/dirbbox_profile_binding.dart';
+import 'package:flutterapi/app/modules/dirbbox_profile/views/dirbbox_profile_view.dart';
 import 'package:flutterapi/app/modules/forgot/bindings/forgot_binding.dart';
 import 'package:flutterapi/app/modules/forgot/views/forgot_view.dart';
 import 'package:flutterapi/app/modules/home/bindings/home_binding.dart';
@@ -50,6 +52,11 @@ class AppPages {
       name: _Paths.DIRBBOX_LOGIN,
       page: () => DirbboxLoginView(),
       binding: DirbboxLoginBinding(),
+    ),
+    GetPage(
+      name: _Paths.DIRBBOX_PROFILE,
+      page: () => DirbboxProfileView(),
+      binding: DirbboxProfileBinding(),
     ),
   ];
 }

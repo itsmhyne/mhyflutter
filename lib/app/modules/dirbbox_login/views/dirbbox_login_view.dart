@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutterapi/app/routes/app_pages.dart';
 
 import 'package:get/get.dart';
 
@@ -85,7 +86,9 @@ class DirbboxLoginView extends GetView<DirbboxLoginController> {
                                 borderRadius: BorderRadius.circular(7))),
                       ),
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.toNamed(Routes.DIRBBOX_PROFILE);
+                        },
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
