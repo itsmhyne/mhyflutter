@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
             );
           } else {
             return GetMaterialApp(
-              title: "Application",
+              title: "mhyflutter",
               initialRoute: AppPages.INITIAL,
               getPages: AppPages.routes,
               debugShowCheckedModeBanner: false,
